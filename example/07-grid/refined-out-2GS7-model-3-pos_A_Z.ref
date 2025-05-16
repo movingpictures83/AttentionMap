@@ -1,0 +1,41 @@
+After Refinement: 
+########### Program Parameters ##################
+ACEWeight	(Str)	1.6
+HBWeight	(Str)	1.2
+aliphWeight	(Str)	2.5
+attrElWeight	(Str)	0.21
+attrVdWWeight	(Str)	1.5
+catpiWeight	(Str)	0.7
+confProbWeight	(Str)	0.0
+energiesOutFileName	(Str)	/home/vsteb002/DeepDeltaAff/experiment_runs/09-2022-energies_16R/../../data/masif_test/prepare_energies_16R/02-refined_pdb//2GS7-model-3-pos_A_Z//refined-out-2GS7-model-3-pos_A_Z
+extraRotamers	(Int)	0
+flexibleLigandChains	(Str)	
+flexibleReceptorChains	(Str)	
+insidenessWeight	(Str)	0.7
+l_attrElWeight	(Str)	0.0
+l_repElWeight	(Str)	0.69
+ligandFixedResiduesFile	(Str)	
+ligandFlexibleResiduesFile	(Str)	
+ligandOnlyClashesMovable	(Int)	1
+ligandPDBFileName	(Str)	/home/vsteb002/DeepDeltaAff/experiment_runs/09-2022-energies_16R/../../data/masif_test/PDB//2GS7-model-3-pos_Z.pdb.CHB.pdb
+lpMethod	(Int)	2
+onlyEnergyCalculation	(Int)	0
+pdbConventionFile	(Str)	
+pipiWeight	(Str)	1.0
+printRefinedComplexes	(Int)	1
+protLib	(Str)	/FireDock/lib/chem.lib
+radiiScaling	(Str)	0.8
+receptorFixedResiduesFile	(Str)	
+receptorFlexibleResiduesFile	(Str)	
+receptorOnlyClashesMovable	(Int)	1
+receptorPDBFileName	(Str)	/home/vsteb002/DeepDeltaAff/experiment_runs/09-2022-energies_16R/../../data/masif_test/PDB//2GS7-model-3-pos_A.pdb.CHB.pdb
+repElWeight	(Str)	0.21
+repVdWWeight	(Str)	0.8
+rigidBodyMinimizationCycles	(Int)	50
+rotamerLibFile	(Str)	/FireDock/lib/bbdep02.May.sortlib
+templateLigandPDBFileName	(Str)	
+templateReceptorPDBFileName	(Str)	
+transFileName	(Str)	/home/vsteb002/DeepDeltaAff/src/utils/../../third_party/firedock_params/default.trans
+#################################################
+    Sol # |    Lrmsd |    Irmsd | st_Lrmsd | st_Irmsd |     glob |     aVdW |     rVdW |      ACE |   inside |    aElec |    rElec |   laElec |   lrElec |       hb |      piS |   catpiS |    aliph |     prob |
+1	|     2.75 |     0.72 |     0.00 |     0.00 |   -20.21 |   -33.28 |    16.14 |     4.17 |    15.32 |   -41.76 |    14.61 |   -24.73 |    18.12 |    -2.83 |    -4.00 |     0.00 |     0.00 |     0.00 |0.079230 0.121395 -0.009312 0.560173 1.032385 -0.544010

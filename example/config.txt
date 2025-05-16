@@ -1,0 +1,2 @@
+Prefix plugins/AttentionMap/example/
+Plugin AttentionMap inputfile parameters.txt outputfile regular
